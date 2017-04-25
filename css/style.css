@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -131,4 +130,38 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+  
+  
+  .todoform {
+	background:#cfcfcf; 
+	/* cor escura para o fundo do formulário */
+
+	font:12px arial, verdana, helvetica, sans-serif; 
+	/* o tamanho e o tipo da fonte no formulário */
+
+	border-top:8px solid #cfcfcf;
+	/* borda superior de 8px solida na cor cinza clara 
+	no formulário */
+
+	border-left:8px solid #cfcfcf;
+	/* a borda esquerda do formulário */
+
+	border-right:8px solid #cfcfcf; 
+	/* a borda direita do formulário */
+
+	border-bottom:8px solid #cfcfcf; 
+	* a borda inferior do formulário */
+
+	border-collapse:collapse; 
+	/* retira as bordas duplas nas células da tabela */
+
+	color:#080808; /* a cor laranja para as letras */
+	
+	
+	} 
+	
+	.col-md-6{
+		width: 80%;
+	}
+	
 }

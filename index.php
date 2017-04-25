@@ -1,3 +1,4 @@
 <?php
-      dawdawdwdawd
+      $redirect = “/index.html“;
+      header("location:$redirect"); 
 ?>
