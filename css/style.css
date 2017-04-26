@@ -19,6 +19,10 @@ body {
   z-index: 20;
 }
 
+#navbar {
+  padding-left: 30%;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -124,6 +128,10 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  #navbar {
+    padding-left: 20%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -164,4 +172,11 @@ body {
 		width: 80%;
 	}
 	
+ 
 }
+
+ @media (max-width: 768px) {
+      .carousel, .carousel img, .carousel .item {
+        height: 250px !important;
+      }
+  }
