@@ -19,8 +19,8 @@ body {
   z-index: 20;
 }
 
-#navbar {
-  padding-left: 30%;
+.navbar {
+  padding-left: 35%;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -130,7 +130,7 @@ body {
   }
 
   #navbar {
-    padding-left: 20%;
+    padding-left: 35%;
   }
 
   .footer {
