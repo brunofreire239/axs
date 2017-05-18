@@ -100,6 +100,22 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+  .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80% !important;
+        height: 80% !important;
+    }
+
+    .footerContact {
+      background-color:#222;
+      border-color:#080808; 
+      width:100%; 
+      height:100px; 
+      bottom:0 ;  
+      margin-top:20px;
+    } 
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -169,6 +185,23 @@ body {
 
  @media (max-width: 768px) {
 
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .footerContact {
+    background-color:#222;
+      border-color:#080808; 
+      width:100%; 
+      height:100px; 
+      bottom:0 ;  
+      margin-top:20px;
+    } 
+
     .servicoConteudo{
        margin-top: 20% ;
        width: 90%;
@@ -228,12 +261,12 @@ body {
     color:#222;
     font-weight:bold;
   }
-.footerContact {
-    background-color:#222;
-    border-color:#080808; 
-    width:100%; 
-    height:100px; 
-    bottom:0 ; 
-    position:absolute; 
-    margin-top:20px;
-  } 
+
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    
