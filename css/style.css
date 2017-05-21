@@ -209,7 +209,7 @@ body {
        border-radius: 10px
     }
       .carousel, .carousel img, .carousel .item {
-        height: 250px !important;
+        height: 220px !important;
       }
 
       .footer {
